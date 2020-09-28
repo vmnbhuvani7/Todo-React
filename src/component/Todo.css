@@ -1,0 +1,16 @@
+li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+button{
+    margin-left: 10px;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+div{
+    margin-top:10px; ;
+}
