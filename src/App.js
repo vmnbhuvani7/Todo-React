@@ -92,7 +92,7 @@ export class App extends Component {
                 key={index}
                 index={index}
                 todo={todo}
-                deleteTodoForm={this.deleteTodoForm.bind(this, index)}
+                deleteTodoForm={() => this.deleteTodoForm(index)}
                 toggleComplete={this.toggleComplete}
               >
               </ListTodo>
